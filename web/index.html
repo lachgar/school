@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <title>Ajouter Etudiant</title>
+    </head>
+    <body>
+        <form action="AddEtudiant" method="POST">
+            <fieldset>
+                <legend>Ajouter un Etudiant</legend>
+
+                <table border="0">
+                    <tr>
+                        <td>Nom :</td>
+                        <td><input type="text" name="nom" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Prenom :</td>
+                        <td><input type="text" name="prenom" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Date Naissance :</td>
+                        <td><input type="date" name="dateNaissance" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td><input type="email" name="email" value="" /></td>
+                    </tr>
+                    <tr>
+                        <td>Mot de passe :</td>
+                        <td><input type="password" name="password" value="" /></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Valider" /></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

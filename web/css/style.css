@@ -1,0 +1,16 @@
+fieldset{
+    background: antiquewhite;
+    border-radius: 10px;
+    border: appworkspace solid;
+    width: 300px;
+    margin: auto;
+}
+
+legend{
+    font-family: arial;
+    font-size: 14px;
+}
+
+input {
+    border-radius: 5px;
+}
